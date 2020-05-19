@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexão Simples - Solicitação Normal</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Solicitações NORMAIS</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Bw = <input type="number" class="txtbw" id="txtbw">
+                H = <input type="number" class="txth" id="txtid">
+                h - d = <input type="number" class="txthd" id="txthd">
+            </p>
+            <p>
+                Mk = <input type="number" class="txtmk" id="txtmk">
+                Aço = CA <input type="number" class="txtca" id="txtca">
+                Concreto = C <input type="number" class="txtc" id="txtc">
+            </p>
+            <p><input type="button" value="Calcular" onclick="calcular()"></p>
+            
+        </div>
+        <div id="res">
+            Esperando parametros...
+        </div>
+        <div>
+            <p>
+                Linha neutra (x) =  <input type="number" class="txtln">
+                <input type="button" value="Verificar Dominio" onclick="verificarDom()">
+            </p>
+        </div>
+        <div id="resln">
+            Esperando resultado de ln...
+        </div>
+    </section>
+    <footer>
+        <p>&copy;FundoDeQuintal</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
